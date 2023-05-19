@@ -26,6 +26,7 @@ class Multi
 			for(int j=0;j<arr[i].length;j++)
 			{
 			System.out.println(arr[i][j]);
+
 			}
 		}
 		}

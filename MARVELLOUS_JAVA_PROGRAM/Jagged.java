@@ -30,8 +30,9 @@ class Jagged
 		{
 			for(j=0;j<arr[i].length;j++)
 			{
-			System.out.println(arr[i][j]);
+			System.out.println(" " + arr[i][j]);
 			}
+			System.out.println();
 		}
 		
 		}

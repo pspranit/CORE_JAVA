@@ -1,20 +1,18 @@
+import java.util.*;
+
 public class pattern 
 {
-    public static void main(String[] args)
-    {
-        pattern(4);
-    }
 
-    static void pattern(int n)
-    {
-        for (int row=4; row <= n; row--)
-        {
-            for (int col = 1; col <= n; col++) ;
-            {
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
-    }
-	
+	public static void main(String[] args) {
+		
+		for(int i=0;i<4;i++)
+		{
+			for(int j=0;j<=i;j++)
+			{
+		System.out.print("* ");   
+	}   
+	System.out.println();   
+		
+	}
+	}
 }

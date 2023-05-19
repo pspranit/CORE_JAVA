@@ -1,7 +1,7 @@
 public class RevString {
     public static void main(String[] args) {
         String name="pranit";
-        System.out.println("String\n"+name);
+        System.out.println("String"+name);
 		
         int leng=name.length();
         String rev="";
@@ -9,7 +9,7 @@ public class RevString {
         {
             rev=rev+name.charAt(i);
         }
-        System.out.println("reverse String\n"+rev);
+        System.out.println("reverse String"+rev);
 
     }
 }
